@@ -4,7 +4,7 @@
 #
 Name     : fsearch
 Version  : 0.1beta4
-Release  : 1
+Release  : 2
 URL      : https://github.com/cboxdoerfer/fsearch/archive/v0.1beta4.tar.gz
 Source0  : https://github.com/cboxdoerfer/fsearch/archive/v0.1beta4.tar.gz
 Summary  : A fast file search utility for Unix-like systems based on GTK+3
