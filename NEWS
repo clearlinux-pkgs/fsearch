@@ -1,0 +1,30 @@
+=================
+Version 0.1.3
+=================
+
+* Fix unresponsive column headers when an overlay is shown (e.g. when no results are found)
+* Fix restoring of column widths from previous session
+* Add build option to specify build channel
+
+=================
+Version 0.1.2
+=================
+
+* Fix potential crash when FSearch gets closed while a database scan is active at the same time
+* Don't sort new database after scan was cancelled
+* Don't save database if scan failed
+* Don't print warning if database scan was cancelled
+* Update screenshots
+
+=================
+Version 0.1.1
+=================
+
+* Add application icon
+* Add flatpak support
+
+=================
+Version 0.1.0
+=================
+
+* Initial release
