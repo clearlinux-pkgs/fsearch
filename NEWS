@@ -1,36 +1,40 @@
 =================
-Version 0.1.4
+Version 0.2.2
 =================
-
-* Fix bug that prevents the "Open Failed" dialog from getting closed
-
-=================
-Version 0.1.3
-=================
-
-* Fix unresponsive column headers when an overlay is shown (e.g. when no results are found)
-* Fix restoring of column widths from previous session
-* Add build option to specify build channel
+* Fix applications sometimes not getting started when FSearch closes immediately after activation
+* Add OBS build channels to build options
+* Remove debug output
+* Updated translations: Dutch, Chinese (Simplified), Turkish, Hebrew, Ukrainian, French
 
 =================
-Version 0.1.2
+Version 0.2.1
 =================
-
-* Fix potential crash when FSearch gets closed while a database scan is active at the same time
-* Don't sort new database after scan was cancelled
-* Don't save database if scan failed
-* Don't print warning if database scan was cancelled
-* Update screenshots
+* Fix crash when parsing a size range (e.g. size:1kb..2kb)
+* Fix always highlighting search terms
 
 =================
-Version 0.1.1
+Version 0.2
 =================
 
-* Add application icon
-* Add flatpak support
-
-=================
-Version 0.1.0
-=================
-
-* Initial release
+* New search engine
+* Greatly improved highlighting of search terms
+* Custom filters
+* Improved sort performance
+* Improved scroll performance
+* Remember file selection after a database update
+* Automatically scroll the result list in rubberband selection mode
+* Invert selection with rubber band when **`Ctrl`** is pressed
+* Focus search entry when the main window gets activated
+* Add filter for applications (i.e. .desktop files)
+* Add option to launch applications directly instead of opening the .desktop files
+* Show application icons for .desktop files
+* Add .odp and .ods files to document filter
+* "Open with" menu now only shows applications which can handle the selected files
+* Improved opening of multiple files with the same type (they get now passed as a list to applications, instead of one by one)
+* Better support for opening files in sandboxed mode
+* Add menu items with  links to the issue tracker, forum and donation pages
+* Improve support for non-Linux systems
+* Add option to exit FSearch when Escape is pressed instead of minimizing the window
+* Exclude `/proc` and `/sys` by default
+* Open context menu when **`Menu`** key or **`Shift + F10`** are pressed
+* and tons of bug fixes, translation updates and smaller improvements

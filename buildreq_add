@@ -3,3 +3,5 @@
 intltool
 intltool-dev
 autoconf-archive-dev
+glib-bin
+glib
