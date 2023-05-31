@@ -5,7 +5,7 @@
 #
 Name     : fsearch
 Version  : 0.2.2
-Release  : 6
+Release  : 7
 URL      : https://github.com/cboxdoerfer/fsearch/archive/0.2.2/fsearch-0.2.2.tar.gz
 Source0  : https://github.com/cboxdoerfer/fsearch/archive/0.2.2/fsearch-0.2.2.tar.gz
 Summary  : A fast file search utility for Unix-like systems based on GTK+3
