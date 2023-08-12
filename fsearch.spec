@@ -4,10 +4,10 @@
 # Using build pattern: meson
 #
 Name     : fsearch
-Version  : 0.2.2
-Release  : 7
-URL      : https://github.com/cboxdoerfer/fsearch/archive/0.2.2/fsearch-0.2.2.tar.gz
-Source0  : https://github.com/cboxdoerfer/fsearch/archive/0.2.2/fsearch-0.2.2.tar.gz
+Version  : 0.2.3
+Release  : 8
+URL      : https://github.com/cboxdoerfer/fsearch/archive/0.2.3/fsearch-0.2.3.tar.gz
+Source0  : https://github.com/cboxdoerfer/fsearch/archive/0.2.3/fsearch-0.2.3.tar.gz
 Summary  : A fast file search utility for Unix-like systems based on GTK+3
 Group    : Development/Tools
 License  : GPL-2.0 GPL-2.0+
@@ -76,10 +76,10 @@ man components for the fsearch package.
 
 
 %prep
-%setup -q -n fsearch-0.2.2
-cd %{_builddir}/fsearch-0.2.2
+%setup -q -n fsearch-0.2.3
+cd %{_builddir}/fsearch-0.2.3
 pushd ..
-cp -a fsearch-0.2.2 buildavx2
+cp -a fsearch-0.2.3 buildavx2
 popd
 
 %build
@@ -87,7 +87,7 @@ export http_proxy=http://127.0.0.1:9/
 export https_proxy=http://127.0.0.1:9/
 export no_proxy=localhost,127.0.0.1,0.0.0.0
 export LANG=C.UTF-8
-export SOURCE_DATE_EPOCH=1685505229
+export SOURCE_DATE_EPOCH=1691798774
 export GCC_IGNORE_WERROR=1
 export AR=gcc-ar
 export RANLIB=gcc-ranlib

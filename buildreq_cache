@@ -1,4 +1,4 @@
-0.2.2
+0.2.3
 appstream-glib
 desktop-file-utils
 pkgconfig(gio-unix-2.0)
